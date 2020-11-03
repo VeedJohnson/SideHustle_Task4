@@ -37,11 +37,10 @@ function changeColor(color){
             document.body.style.color = "rgba(0,0,0,0.7)";
             size.classList.add("dark");
         } changeBG = true;
-    }  else if(color === '#0392BF'){
+    } else if(color === '#0392BF'){
         document.body.style.color = "#f7e2e2";
         size.classList.remove("dark");
         changeBG = false;
     }
 } //IMPLEMENT THE FUNCTION ON THE HTML ELEMENT ON CLICK
-
 
