@@ -119,11 +119,18 @@ nav li {
   word-spacing: 0.3rem;
 }
 
+.ratings {
+  color: #fdcc0d;
+}
+
 .ratings li {
   display: inline-block;
-  color: #fdcc0d;
   font-size: 1.2rem;
   margin: 0 -0.2rem;
+}
+
+.ratings.change {
+  color: #be6161;
 }
 
 .skate_img {

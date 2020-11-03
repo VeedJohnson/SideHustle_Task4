@@ -4,6 +4,7 @@ const nav = document.querySelector(".nav");
 const menuBtn = document.querySelector(".menu-btn");
 const hamburger = document.querySelector(".menu-btn_burger");
 const size = document.querySelector("#size");
+const rating = document.querySelector(".ratings");
 
 
 let showMenu = false;
